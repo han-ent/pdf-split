@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="no-referrer" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; worker-src 'self' blob:; img-src 'self' blob: data:; font-src 'self' data:; connect-src 'self' blob:; manifest-src 'self'; base-uri 'none'; form-action 'none'"
+    />
+    <meta
+      name="description"
+      content="브라우저에서 PDF를 북마크 기준으로 나누거나 합칩니다. 파일은 서버로 전송되지 않습니다."
+    />
+    <title>PDF 나누기</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
